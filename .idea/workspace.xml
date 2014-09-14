@@ -26,7 +26,16 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="72" selection-start="982" selection-end="982" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="1620">
+            <state line="18" column="83" selection-start="993" selection-end="993" vertical-scroll-proportion="-8.75" vertical-offset="60" max-vertical-offset="1620">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="13" selection-start="1473" selection-end="1473" vertical-scroll-proportion="-8.833333" vertical-offset="343" max-vertical-offset="1035">
               <folding />
             </state>
           </provider>
@@ -35,7 +44,7 @@
       <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="445" column="29" selection-start="8583" selection-end="8583" vertical-scroll-proportion="0.40256044" vertical-offset="6392" max-vertical-offset="7455">
+            <state line="308" column="23" selection-start="6051" selection-end="6051" vertical-scroll-proportion="0.46657184" vertical-offset="4292" max-vertical-offset="7575">
               <folding />
             </state>
           </provider>
@@ -60,6 +69,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
       </list>
@@ -219,13 +229,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="72" selection-start="982" selection-end="982" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="1620">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="500" column="16" selection-start="9032" selection-end="9032" vertical-scroll-proportion="0.0" vertical-offset="7266" max-vertical-offset="7995">
@@ -233,9 +236,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="83" selection-start="993" selection-end="993" vertical-scroll-proportion="-8.75" vertical-offset="60" max-vertical-offset="1620">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="13" selection-start="1473" selection-end="1473" vertical-scroll-proportion="-8.833333" vertical-offset="343" max-vertical-offset="1035">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="445" column="29" selection-start="8583" selection-end="8583" vertical-scroll-proportion="0.40256044" vertical-offset="6392" max-vertical-offset="7455">
+        <state line="308" column="23" selection-start="6051" selection-end="6051" vertical-scroll-proportion="0.46657184" vertical-offset="4292" max-vertical-offset="7575">
           <folding />
         </state>
       </provider>
