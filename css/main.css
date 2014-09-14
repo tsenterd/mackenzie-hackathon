@@ -380,6 +380,14 @@ main {
     margin: 0 auto;
 }
 
+#about_container {
+
+}
+
+#about_container p {
+
+}
+
 #top_projects {
     display: block;
     width: auto;
