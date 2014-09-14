@@ -388,6 +388,43 @@ main {
 
 }
 
+span.text-content {
+    background: rgba(0,0,0,0.5);
+    color: white;
+    cursor: pointer;
+    display: table;
+    height: 300px;
+    position: absolute;
+    width: 450px;
+    opacity: 0;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+
+span.text-content span {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#project_one:hover span.text-content {
+    opacity: 1;
+}
+
+#project_two:hover span.text-content {
+    opacity: 1;
+}
+
+#project_three:hover span.text-content {
+    opacity: 1;
+}
+
+#project_four:hover span.text-content {
+    opacity: 1;
+}
+
 #top_projects {
     display: block;
     width: auto;
@@ -431,20 +468,11 @@ main {
     float: right;
 }
 
-.image_hover {
-    transition: all 0.5s ease;
-}
-
 .project_background {
     display: block;
     height: 300px;
     width: 450px;
     background-image: url("https://placeimg.com/450/300/any");
-}
-
-.image_hover:hover {
-    background: #ffffff;
-    opacity: 0.8;
 }
 
 main span {
