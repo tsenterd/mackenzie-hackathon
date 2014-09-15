@@ -26,7 +26,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="22" selection-start="1423" selection-end="1423" vertical-scroll-proportion="-10.0" vertical-offset="180" max-vertical-offset="1380">
+            <state line="30" column="50" selection-start="1574" selection-end="1574" vertical-scroll-proportion="-8.125" vertical-offset="255" max-vertical-offset="1410">
               <folding />
             </state>
           </provider>
@@ -53,16 +53,7 @@
       <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="308" column="11" selection-start="6035" selection-end="6035" vertical-scroll-proportion="0.12517782" vertical-offset="4532" max-vertical-offset="8370">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="normalize.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/normalize.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="500" column="16" selection-start="9032" selection-end="9032" vertical-scroll-proportion="0.0" vertical-offset="7266" max-vertical-offset="7995">
+            <state line="340" column="25" selection-start="6699" selection-end="6699" vertical-scroll-proportion="0.61593175" vertical-offset="4667" max-vertical-offset="8625">
               <folding />
             </state>
           </provider>
@@ -242,14 +233,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="500" column="16" selection-start="9032" selection-end="9032" vertical-scroll-proportion="0.0" vertical-offset="7266" max-vertical-offset="7995">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="6" selection-start="1508" selection-end="1508" vertical-scroll-proportion="-8.833333" vertical-offset="328" max-vertical-offset="1080">
+        <state line="500" column="16" selection-start="9032" selection-end="9032" vertical-scroll-proportion="7.27572" vertical-offset="2196" max-vertical-offset="7995">
           <folding />
         </state>
       </provider>
@@ -261,16 +245,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="6" selection-start="1508" selection-end="1508" vertical-scroll-proportion="-8.833333" vertical-offset="328" max-vertical-offset="1080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="22" selection-start="1423" selection-end="1423" vertical-scroll-proportion="-10.0" vertical-offset="180" max-vertical-offset="1380">
+        <state line="30" column="50" selection-start="1574" selection-end="1574" vertical-scroll-proportion="-8.125" vertical-offset="255" max-vertical-offset="1410">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="308" column="11" selection-start="6035" selection-end="6035" vertical-scroll-proportion="0.12517782" vertical-offset="4532" max-vertical-offset="8370">
+        <state line="340" column="25" selection-start="6699" selection-end="6699" vertical-scroll-proportion="0.61593175" vertical-offset="4667" max-vertical-offset="8625">
           <folding />
         </state>
       </provider>

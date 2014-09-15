@@ -296,7 +296,7 @@ p {
 
 header {
     display: block;
-    height: 40px;
+    height: 80px;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -304,21 +304,7 @@ header {
 }
 
 header p {
-    color: #435a6b;
-    background: #ffffff;
-    font: 400 18px/1 "lato";
-    margin-right: 20px;
-    padding: 2px 2px 2px 2px;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 1px;
-    text-shadow: 0 0 1px rgba(255,255,255,0.3);
-    font-size: 1.35em;
-    text-align: center;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px; /* future proofing */
-    -khtml-border-radius: 5px; /* for old Konqueror browsers */
+
 }
 
 nav {
@@ -326,11 +312,42 @@ nav {
     text-align: center;
 }
 
-nav p {
+header p {
     display: inline-block;
 }
 
-nav a {
+header p a {
+    display: inline-block;
+}
+
+.title_link {
+    color: #435a6b;
+    background: #ffffff;
+    font: 400 18px/1 "lato";
+    padding: 2px 2px 2px 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-shadow: 0 0 1px rgba(255,255,255,0.3);
+    font-size: 1.35em;
+    text-align: center;
+    margin-top: 10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; /* future proofing */
+    -khtml-border-radius: 5px; /* for old Konqueror browsers */
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+
+}
+
+.title_link:hover {
+    color: #ffffff;
+    background: #435a6b;
+}
+
+#navigation a {
     position: relative;
     display: inline-block;
     outline: none;
@@ -352,8 +369,8 @@ nav a:focus {
 }
 
 /* Effect 1: Brackets */
-.cl-effect-1 a::before,
-.cl-effect-1 a::after {
+.cl-effect-1 #navigation a::before,
+.cl-effect-1 #navigation a::after {
     display: inline-block;
     opacity: 0;
     -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
@@ -361,7 +378,7 @@ nav a:focus {
     transition: transform 0.3s, opacity 0.2s;
 }
 
-.cl-effect-1 a::before {
+.cl-effect-1 #navigation a::before {
     margin-right: 10px;
     content: '[';
     -webkit-transform: translateX(20px);
@@ -369,7 +386,7 @@ nav a:focus {
     transform: translateX(20px);
 }
 
-.cl-effect-1 a::after {
+.cl-effect-1 #navigation a::after {
     margin-left: 10px;
     content: ']';
     -webkit-transform: translateX(-20px);
@@ -377,10 +394,10 @@ nav a:focus {
     transform: translateX(-20px);
 }
 
-.cl-effect-1 a:hover::before,
-.cl-effect-1 a:hover::after,
-.cl-effect-1 a:focus::before,
-.cl-effect-1 a:focus::after {
+.cl-effect-1 #navigation a:hover::before,
+.cl-effect-1 #navigation a:hover::after,
+.cl-effect-1 #navigation a:focus::before,
+.cl-effect-1 #navigation a:focus::after {
     opacity: 1;
     -webkit-transform: translateX(0px);
     -moz-transform: translateX(0px);
