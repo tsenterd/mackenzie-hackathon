@@ -296,7 +296,7 @@ p {
 
 header {
     display: block;
-    height: 80px;
+    height: 40px;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -304,16 +304,30 @@ header {
 }
 
 header p {
-    color: #ffffff;
-    font: 100 18px/1 "lato";
-    font-style: italic;
-    padding: 10px 0px 10px 0px;
+    color: #435a6b;
+    background: #ffffff;
+    font: 400 18px/1 "lato";
+    margin-right: 20px;
+    padding: 2px 2px 2px 2px;
     text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-shadow: 0 0 1px rgba(255,255,255,0.3);
+    font-size: 1.35em;
+    text-align: center;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; /* future proofing */
+    -khtml-border-radius: 5px; /* for old Konqueror browsers */
 }
 
 nav {
     margin: 0 auto;
     text-align: center;
+}
+
+nav p {
+    display: inline-block;
 }
 
 nav a {
@@ -483,13 +497,17 @@ main span {
 
 main h1 {
     color: #435a6b;
-    font: 100 25px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    border-bottom: 2px solid #435a6b;
-    padding-bottom: 5px;
+    font: 100 30px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-bottom: 10px;
     text-transform: uppercase;
-    margin: 0 auto;
+    margin-top: 20px;
     text-align: center;
     padding-top: 10px;
+}
+
+main h1 strong {
+    font-weight: 400;
+    color: #435a6b;
 }
 
 .btn {
