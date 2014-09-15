@@ -391,7 +391,6 @@ main {
 span.text-content {
     background: rgba(0,0,0,0.5);
     color: white;
-    cursor: pointer;
     display: table;
     height: 300px;
     position: absolute;
@@ -501,8 +500,8 @@ main h1 {
     background: none;
     cursor: pointer;
     padding: 25px 80px;
-    margin-left: 120px;
-    margin-top: 10px;
+    margin-left: 0px;
+    margin-top: 50px;
     display: inline-block;
     text-transform: uppercase;
     letter-spacing: 1px;
