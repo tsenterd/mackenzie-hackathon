@@ -368,6 +368,13 @@ nav a:focus {
     outline: none;
 }
 
+#contact {
+    display: block;
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+}
+
 /* Effect 1: Brackets */
 .cl-effect-1 #navigation a::before,
 .cl-effect-1 #navigation a::after {
