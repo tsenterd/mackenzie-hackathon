@@ -581,16 +581,16 @@ main h1 strong {
 .team_member_container {
     display: block;
     width: 700px;
-    height: 200px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    height: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     margin: 0 auto;
 }
 
 .team_member_pic {
     display: block;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     background: #c0c0c0;
 }
 
@@ -602,7 +602,7 @@ main h1 strong {
 .team_member_bio {
     display: block;
     width: 400px;
-    height: 200px;
+    height: 150px;
 }
 
 .bio_text {
@@ -619,19 +619,24 @@ main h1 strong {
     outline: none;
     margin: 0 auto;
     text-align: center;
-    padding-top: 7px;
-    font: 300 18px/1 "lato";
+    font: 400 24px/1 "lato";
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 1px;
     text-shadow: 0 0 1px rgba(255,255,255,0.3);
-    font-size: 1.35em;
     color: #435a6b;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .bio_text span a:hover {
     color: #435a6b;
     background: #ffffff;
+}
+
+.bio_text p {
+    font-size: 14px;
 }
 
 .right_align_team {
