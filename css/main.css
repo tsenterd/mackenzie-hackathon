@@ -416,6 +416,7 @@ main {
     width: 920px;
     height: 100%;
     margin: 0 auto;
+    padding-bottom: 20px;
 }
 
 #about_container {
@@ -574,4 +575,69 @@ main h1 strong {
 .btn-1a:active {
     color: #ffffff;
     background: #0e83cd;
+}
+
+
+.team_member_container {
+    display: block;
+    width: 700px;
+    height: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+}
+
+.team_member_pic {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background: #c0c0c0;
+}
+
+.team_member_pic img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.team_member_bio {
+    display: block;
+    width: 400px;
+    height: 200px;
+}
+
+.bio_text {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.bio_text span a {
+    position: relative;
+    display: inline-block;
+    outline: none;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 7px;
+    font: 300 18px/1 "lato";
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-shadow: 0 0 1px rgba(255,255,255,0.3);
+    font-size: 1.35em;
+    color: #435a6b;
+}
+
+.bio_text span a:hover {
+    color: #435a6b;
+    background: #ffffff;
+}
+
+.right_align_team {
+    float: right;
+}
+
+.left_align_team {
+    float: left;
 }
