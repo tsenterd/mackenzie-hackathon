@@ -505,9 +505,26 @@ span.text-content span {
     height: 300px;
     float: right;
 }
-
-.project_background {
-    display: block;
+.project1_background{
+ display: block;
+    height: 300px;
+    width: 450px;
+    background-image: url("../backgrounds/Speakeasy.png");
+}
+.project2_background{
+ display: block;
+    height: 300px;
+    width: 450px;
+    background-image: url("../backgrounds/Lawssons.png");
+}
+.project3_background{
+ display: block;
+    height: 300px;
+    width: 450px;
+    background-image: url("https://placeimg.com/450/300/any");
+}
+.project4_background{
+ display: block;
     height: 300px;
     width: 450px;
     background-image: url("https://placeimg.com/450/300/any");
