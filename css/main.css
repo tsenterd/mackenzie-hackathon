@@ -462,6 +462,21 @@ span.text-content span {
 #project_four:hover span.text-content {
     opacity: 1;
 }
+#project_five:hover span.text-content {
+    opacity: 1;
+}
+#project_six:hover span.text-content {
+    opacity: 1;
+}
+#project_seven:hover span.text-content {
+    opacity: 1;
+}
+#project_eight:hover span.text-content {
+    opacity: 1;
+}
+#project_nine:hover span.text-content {
+    opacity: 1;
+}
 
 #top_projects {
     display: block;
@@ -491,7 +506,20 @@ span.text-content span {
     margin-top: 20px;
     padding-bottom: 20px;
 }
-
+#bottommost_projects{
+display: block;
+    width: auto;
+    height: 300px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+#name1_lol{
+display: block;
+    width: auto;
+    height: 300px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
 #project_three {
     display: table;
     width: 450px;
@@ -505,6 +533,31 @@ span.text-content span {
     height: 300px;
     float: right;
 }
+#project_five {
+    display: table;
+    width: 450px;
+    height: 300px;
+    float: left;
+}
+#project_six {
+    display: table;
+    width: 450px;
+    height: 300px;
+    float: right;
+}
+#project_seven {
+    display: table;
+    width: 450px;
+    height: 300px;
+    float: left;
+}
+#project_eight {
+    display: table;
+    width: 450px;
+    height: 300px;
+    float: right;
+}
+
 .project1_background{
  display: block;
     height: 300px;
@@ -521,13 +574,37 @@ span.text-content span {
  display: block;
     height: 300px;
     width: 450px;
-    background-image: url("https://placeimg.com/450/300/any");
+    background-image: url("../backgrounds/Digitalartsportfolio.png");
 }
 .project4_background{
  display: block;
     height: 300px;
     width: 450px;
-    background-image: url("https://placeimg.com/450/300/any");
+    background-image: url("../backgrounds/Moveman.png");
+}
+.project5_background{
+ display: block;
+    height: 300px;
+    width: 450px;
+    background-image: url("../backgrounds/LeukocyticDefense.png");
+}
+.project6_background{
+ display: block;
+    height: 300px;
+    width: 450px;
+    background-image: url("../backgrounds/Comingsoon.jpg");
+}
+.project7_background{
+ display: block;
+    height: 300px;
+    width: 450px;
+    background-image: url("../backgrounds/Comingsoon.jpg");
+}
+.project8_background{
+ display: block;
+    height: 300px;
+    width: 450px;
+    background-image: url("../backgrounds/Comingsoon.jpg");
 }
 
 main span {
